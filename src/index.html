@@ -1,0 +1,56 @@
+<form
+  name="simpleContactForm"
+  method="POST"
+  id="simple-contact-form"
+  class="contact-form"
+>
+  <p class="form-row">
+    <label
+      id="contact-form-name-label"
+      for="contact-form-Name"
+      class="form-label"
+      >name</label
+    >
+    <input
+      type="text"
+      name="Name"
+      id="contact-form-Name"
+      aria-labelledby="contact-form-Name-label"
+      class="form-input"
+    />
+  </p>
+  <p class="form-row">
+    <label
+      id="contact-form-email-label"
+      for="contact-form-email"
+      class="form-label"
+      >Email address</label
+    >
+    <input
+      type="email"
+      name="email"
+      id="contact-form-email"
+      aria-labelledby="contact-form-email-label"
+      class="form-input"
+    />
+  </p>
+  <p class="form-row">
+    <label
+      id="contact-form-message-label"
+      for="contact-form-message"
+      class="form-label"
+      >Message</label
+    >
+    <textarea
+      name="message"
+      id="contact-form-message"
+      aria-labelledby="contact-form-message-label"
+      class="form-textarea"
+      rows="7"
+    ></textarea>
+  </p>
+
+  <p class="form-row form-submit">
+    <button type="submit" class="button">Send Message</button>
+  </p>
+</form>
